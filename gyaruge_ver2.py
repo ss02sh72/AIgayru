@@ -117,7 +117,7 @@ def lug_model_3(model,collect1, collect2, collect3):
     collectlist3 = []
     eval3 = []
 
-    comment = input("会話を入力してください：")
+    comment = input("会話を入力してください。：")
 
     embeddings1 = model.encode(comment, convert_to_tensor=True)
     embeddings2 = model.encode(collect1, convert_to_tensor=True)
